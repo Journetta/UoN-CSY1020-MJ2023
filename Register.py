@@ -8,7 +8,10 @@ for x in register:
     if x==found:
             print(found + "'s Student Number is: " + str(num))
             break
+    if x==num:
+            print(found + "'s Student Number is: " + str(num))
+            break
 
 if x !=found:
-    
+    LOOP = 0
     print ("Student could Not be found")
